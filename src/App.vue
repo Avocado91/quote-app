@@ -1,13 +1,20 @@
 <template>
-    <div class="container">
+  <div class="container">
     
-    </div>
+  </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+  data: function() {
+    return {
+      maxQuotes: 10,
+      quotes: [
+        'Just a quote to see something'
+      ]
+    };
+  }
+}
 </script>
 
 <style>
